@@ -5,3 +5,22 @@ build with
   mvn clean package assembly:single
 and in the target directory, execute with
   java -jar ShapeViewer-1.0.jar
+
+In two dimensions, you can rotate a vertex around a point.
+So a square, when it rotates, rotates around some center.
+
+In three dimensions, each vertex can rotate around either
+the x-axis, the y-axis, or the z-axis. 
+
+In four dimensions, verticies actually rotate around planes,
+namely the xy plane, the xz plane, the xt plane, the yz plane,
+the yt plane, and the zt plane.
+
+In n-dimensional space, you can rotate around n-2 dimensional
+subspaces. In general, in n-dimensional space, there are
+C(n,n-2) = n(n-1)/2 subspaces you can rotate around.
+
+This is why the number of sliders change when you change the
+number of dimensions.
+
+ 
