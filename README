@@ -1,0 +1,7 @@
+This viewer rotates cubes and octahedra in N dimensions.
+You can type rotations into the boxes and animate with the sliders.
+
+build with
+  mvn clean package assembly:single
+and in the target directory, execute with
+  java -jar ShapeViewer-1.0.jar
