@@ -23,4 +23,5 @@ C(n,n-2) = n(n-1)/2 subspaces you can rotate around.
 This is why the number of sliders change when you change the
 number of dimensions.
 
- 
+Shapes can be drawn using perspective (where lines converge at
+infinity) or orthographically (where parallel lines stay parallel). 
